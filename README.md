@@ -1,6 +1,6 @@
 Chat [link](http://gainful-weather.surge.sh)
 
-                                                                                                  Short guide
+                                                                                   Short guide
 
 1)First enter your mail (token will be sent to it), click “Send token” button.
 
@@ -10,9 +10,10 @@ Chat [link](http://gainful-weather.surge.sh)
 
 4)Next, the chat is at your disposal )))))
 
-                                                                                                     What is added
+                                                                                  What is added
+                                                                                   
 
-                                                                                         1.Attaching messages
+                                                                               1.Attaching messages
 
 *When clicking on each message, the user can add it to the list that appears if you click on the message.
 
@@ -20,7 +21,7 @@ Chat [link](http://gainful-weather.surge.sh)
 
 *After adding a message to the list, it changes color.
 
-                                                                                           2.Searching for a pinned post
+                                                                              2.Searching for a pinned message
 
 *After a message is added, it is also highlighted.
 
@@ -28,14 +29,14 @@ Chat [link](http://gainful-weather.surge.sh)
 
 *Clicking on an “X” closes the message, and the color of the pinned message becomes the default.
 
-                                                                                   3.Virtualization (lazy loading).
+                                                                             3.Virtualization (lazy loading).
 
 
 *When the top of the current messages is reached using the scrollbar, 20 new messages are loaded to the user.
 
 *If the list reaches the limit, an alert appears.
 
-                                                                                           4.Closing chat
+                                                                              4.Closing chat
 
 *After clicking on the “close” button, the chat is closed.
 
