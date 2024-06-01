@@ -1,0 +1,38 @@
+{
+  "compilerOptions": {
+    "lib": ["ESNext", "dom"],
+    "outDir": "dist",
+    "removeComments": true,
+    "target": "ES6",
+    "baseUrl": ".",
+    "esModuleInterop": true,
+    "moduleResolution": "Bundler",
+    "paths": {
+      "@data/*": ["src/data/*"],
+      "@constantsForChat": ["src/helpers/constants_for_chat"],
+      "@utilities/*": ["src/utilities/*"],
+      "@helpers/*": ["src/helpers/*"],
+      "@mainTypes": ["src/types_for_const"],
+      "@components/*": ["src/components/*"],
+      "@images/*": ["src/assets/images/*"],
+      "@notifications/*": ["src/components/notifications/*"]
+    },
+    "sourceMap": true,
+    "sourceRoot": "/",
+    "alwaysStrict": true,
+    "allowUnreachableCode": false,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "noImplicitReturns": true,
+    "noUncheckedIndexedAccess": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true
+  },
+  "include": [
+    "./**/*.ts",
+    "src/helpers/handle_modals_visibility.ts",
+    "src/scripts/index.ts",
+    "src/helpers/constants_for_chat.ts"
+  ],
+  "exclude": ["node_modules/**"]
+}

@@ -1,0 +1,52 @@
+.authorization_modal {
+  border: none;
+  width: 300px;
+  height: 200px;
+  background-color: black;
+  position: absolute;
+  border: 1px solid white;
+  border-radius: 4%;
+  box-shadow: 0 0 10px white;
+}
+.wrapper_authorization {
+  border: none;
+  width: 280px;
+  height: 180px;
+  background-color: transparent;
+  position: absolute;
+  border: none;
+  color: white;
+}
+.getEmailCodeInput {
+  margin-top: 25%;
+  height: 16%;
+  width: 90%;
+  margin-left: 5%;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1.5px solid blueviolet;
+  font-family: "Pat-PaCool";
+  font-size: 140%;
+  color: white;
+}
+
+.sentTheEmailCodeButton,
+.getTheEmailCodeButton {
+  margin-top: 8%;
+  margin-left: 11%;
+  background-color: blueviolet;
+  border: 1px solid white;
+  color: white;
+  border-radius: 7%;
+  font-family: "Pat-PaCool";
+  font-size: 130%;
+  width: 95px;
+  height: 40px;
+  cursor: pointer;
+}
+.getTheEmailCodeButton:hover {
+  box-shadow: 0 0 10px white;
+}
+.sentTheEmailCodeButton:hover {
+  box-shadow: 0 0 10px white;
+}

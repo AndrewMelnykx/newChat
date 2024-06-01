@@ -1,0 +1,74 @@
+.settings_modal {
+  border: none;
+  width: 300px;
+  height: 200px;
+  background-color: black;
+  position: absolute;
+  border: 1px solid white;
+  border-radius: 4%;
+  box-shadow: 0 0 10px white;
+}
+.wrapper_settings {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  width: 280px;
+  height: 180px;
+  background-color: transparent;
+  position: absolute;
+  border: none;
+  color: white;
+}
+.settingsInput {
+  margin-top: 25%;
+  height: 16%;
+  width: 100%;
+  margin-left: -15%;
+  background-color: transparent;
+  border: none;
+  border: 1.5px solid white;
+  font-family: "Pat-PaCool";
+  border-radius: 4px;
+  font-size: 140%;
+  color: white;
+  text-align: center;
+  box-shadow: 0 0 5px white;
+}
+
+.settingsButtonModal {
+  position: absolute;
+  margin-top: 18%;
+  margin-left: 10px;
+
+  background-color: blueviolet;
+  border: 1px solid white;
+  color: white;
+  border-radius: 7%;
+  font-family: "Pat-PaCool";
+  font-size: 145%;
+  width: 40px;
+  height: 30px;
+  cursor: pointer;
+}
+.settingsButton :hover {
+  box-shadow: 0 0 10px white;
+}
+.closeSettingsModalBtn {
+  position: absolute;
+  width: 40px;
+  height: 30px;
+  cursor: pointer;
+  margin-top: -55%;
+  margin-left: 100%;
+  background-color: transparent;
+  border: none;
+}
+#closeImg {
+  width: 40px;
+  height: 40px;
+  filter: invert(100%);
+}
+.settingsButtonModal:hover {
+  box-shadow: 0 0 10px white;
+}

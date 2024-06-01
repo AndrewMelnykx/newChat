@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>chat</title>
+    <link rel="stylesheet" href="index.css" />
+    <link
+      rel="stylesheet"
+      href="./src/components/modals/add_info_modal/add_info_modal.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./src/components/modals/authorization_modal/authorization_modal.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./src/components/modals/settings_modal/settings_modals.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./src/components/modals/verification_modal/verification_modal.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./src//components//pin_message/pin_message.css"
+    />
+    <link rel="stylesheet" href="./src/components/pin_message/pin_list.ts" />
+    <link
+      rel="stylesheet"
+      href="./src//components//notifications//notification.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="pinned_list_container">
+        <label for="pinned_list" class="label_for_pinned"
+          >Pinned messages</label
+        >
+        <div class="pinned_list"></div>
+      </div>
+
+      <div class="main_app_div">
+        <button class="settings_button">Settings</button>
+        <button class="exit_button">Exit</button>
+        <dialog class="authorization_modal">
+          <div class="wrapper_authorization">
+            <form action="submit" class="emailTokenHandlingForm">
+              <input
+                type="text"
+                class="getEmailCodeInput"
+                type="email"
+                placeholder="Email address "
+                required
+              />
+              <button class="getTheEmailCodeButton">Get token</button>
+              <button class="sentTheEmailCodeButton">Verify</button>
+            </form>
+          </div>
+        </dialog>
+        <dialog class="verification_modal">
+          <span class="email_error"></span>
+          <div class="wrapper_verification">
+            <form action="submit" class="tokenHandlingForm">
+              <input
+                type="text"
+                class="getTokenFromEmail"
+                type="text"
+                placeholder="Token !!! "
+                required
+              />
+              <button class="signInButton">Sign <b>In</b></button>
+            </form>
+          </div>
+        </dialog>
+        <dialog class="settings_modal">
+          <span class="email_error"></span>
+          <div class="wrapper_settings">
+            <button class="closeSettingsModalBtn">
+              <img
+                src="./assets/images/cancel.png"
+                alt="close.img"
+                id="closeImg"
+              />
+            </button>
+            <form action="submit" class="nameChangingForm">
+              <input
+                type="text"
+                class="settingsInput"
+                type="text"
+                placeholder="New name"
+                required
+              />
+              <button class="settingsButtonModal">⇨</button>
+            </form>
+          </div>
+        </dialog>
+
+        <dialog class="add_info_modal">
+          <div class="wrapper_add_info">
+            <ul class="list_add_info">
+              <li class="add_info_title"></li>
+              <li class="add_info_name"></li>
+              <li class="add_info_id"></li>
+              <li class="add_info_email"></li>
+            </ul>
+          </div>
+        </dialog>
+
+        <ul class="messages_list">
+          <template id="message_template">
+            <li class="user_nickname" title="Pin">Nick:</li>
+            <li class="user_text" title="Pin">Hello!</li>
+            <li class="user_time" title="Pin">00:00</li>
+            <li class="user_id"></li>
+          </template>
+        </ul>
+
+        <form class="messages_from">
+          <input type="text" class="message_input" placeholder="...message" />
+          <button class="sent_message">⇨</button>
+        </form>
+      </div>
+    </div>
+  </body>
+  <script src="./src/scripts/index.ts" type="module"></script>
+  <script src="https://cdn.jsdelivr.net/npm/js-cookie@3.0.1/dist/js.cookie.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/notyf@3/notyf.min.js"></script>
+</html>
