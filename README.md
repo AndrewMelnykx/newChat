@@ -1,4 +1,4 @@
-Chat link [link](http://gainful-weather.surge.sh)
+Chat [link](http://gainful-weather.surge.sh)
 
                                                                                                   Short guide
 
