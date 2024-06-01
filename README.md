@@ -41,4 +41,3 @@ Chat [link](http://gainful-weather.surge.sh)
 
 *The page is refreshed and the user is prompted to log in again.
 
-Translated with DeepL.com (free version)
